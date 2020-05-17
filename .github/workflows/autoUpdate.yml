@@ -1,0 +1,11 @@
+- name: ForkBacon
+  uses: shitiomatic/forkbacon@v1.1.0
+  with:
+    # Upstream URL. This MUST be public!
+    upstream_url: https://github.com/rakr/vim-one
+    # Upstream Branch to Merge/Rebase
+    upstream_branch: master
+    # Branch to Merge/Rebase
+    branch: # master
+    # Method to use. Can be `merge`, `merge-ff-only` or `rebase`.
+    method: merge-ff-only
